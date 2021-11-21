@@ -3,6 +3,7 @@ package com.cabInvoiceGenerator;
 import java.util.Objects;
 
 public class InvoiceSummary {
+
     int numberOfRides;
     double totalFare;
     double avgFare;
@@ -22,7 +23,7 @@ public class InvoiceSummary {
     }
 
     // to compare objects we should have hashcode method else they
-    //create a two different instances so creating equals() and hashcode()
+    //create two different instances so creating equals() and hashcode()
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
